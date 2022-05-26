@@ -297,7 +297,7 @@ header{
 .middle-main{
     width: 100%;
     height: calc(100vh - 282px);
-    overflow: auto;
+    overflow: hidden;
     display: flex;
 }
 .left-side{
@@ -416,9 +416,9 @@ header{
 }
 .left-border-line{
     border-left: 9px solid #FE8080;
-    height: 375px;
+    height: 360px;
     position: absolute;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 0px;
     position: fixed;
 }
@@ -512,6 +512,7 @@ header{
 .left-side-section{
     display: flex;
     margin-top: 35px;
+    position: relative;
 }
 .left-side-section-second{
     margin-top: -3px;
@@ -580,6 +581,7 @@ header{
     border-left: 9px solid #F99E04;
     border-right: 30px solid #F99E04;
     border-radius: 16px;
+    position: relative;
 }
 .middle-text{
     display: flex;
@@ -700,8 +702,8 @@ header{
     background-color: black;
     width: 20px;
     height: 8px;
-    left: 429px;
-    margin-top: 30px;
+    margin-left: -26px;
+    margin-top: 25px;
 }
 .empty-cell-2{
     position: absolute;
@@ -709,7 +711,7 @@ header{
     width: 43px;
     height: 8px;
     right: 0;
-    margin-right: 50px;
+    margin-right: -37px;
 }
 .empty-cell-3{
     position: absolute;
@@ -717,7 +719,7 @@ header{
     width: 43px;
     height: 8px;
     right: 0;
-    margin-right: 50px;
+    margin-right: -37px;
     margin-top: 30px;
 }
 .empty-cell-4{
@@ -725,7 +727,7 @@ header{
     background-color: black;
     width: 15px;
     height: 11px;
-    top: 280px;
+    margin-top: -18px;
     margin-left: 127px;
 }
 .empty-cell-5{
@@ -733,26 +735,26 @@ header{
     background-color: black;
     width: 15px;
     height: 11px;
-    top: 280px;
     right: 0;
-    margin-right: 234px;
+    margin-right: 157px;
+    margin-top: -18px;
 }
 .empty-cell-6{
     position: absolute;
     background-color: black;
     width: 15px;
     height: 11px;
-    top: 338px;
     margin-left: 62px;
+    margin-top: 37px;
 }
 .empty-cell-7{
     position: absolute;
     background-color: black;
     width: 15px;
     height: 11px;
-    top: 340px;
     right: 0;
-    margin-right: 150px;
+    margin-right: 85px;
+    margin-top: 34px;
 }
 .empty-cell-4-a{
     position: absolute;
@@ -776,7 +778,7 @@ header{
     background-color: black;
     width: 15px;
     height: 11px;
-    top: 406px;
+    margin-top: 36px;
     margin-left: 62px;
 }
 .empty-cell-7-d{
@@ -793,7 +795,7 @@ header{
     background-color: black;
     width: 20px;
     height: 8px;
-    left: 429px;
+    margin-left: -26px;
 }
 .empty-cell-1-ac{
     position: absolute;
@@ -809,7 +811,7 @@ header{
     width: 43px;
     height: 8px;
     right: 0;
-    margin-right: 50px;
+    margin-right: -32px;
 }
 .empty-cell-3-ae{
     position: absolute;
@@ -893,7 +895,7 @@ header{
 }
 .new-middle-left-line{
     border-left: 9px solid #9DA0FB;
-    height: 214px;
+    height: 218px;
     position: absolute;
     margin-top: 29px;
     margin-left: 33px;
@@ -931,7 +933,7 @@ header{
 .atm{
     background-color: #B3C8FD;
     width: 282px;
-    height: 113px;
+    height: 89px;
     position: absolute;
     left: 0;
     margin-left: 59px;
@@ -945,7 +947,7 @@ header{
     height: 30px;
     /* left: 0; */
     margin-left: 273px;
-    margin-top: 83px;
+    margin-top: 60px;
 }
 .atm-1{
     margin-left: 772px;
