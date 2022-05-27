@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+::-webkit-scrollbar{
+    display: none;
+}
 body{
     background-color: #000;
 }
@@ -277,7 +280,7 @@ header{
     height: 20px;
     position: absolute;
     left: 1194px;
-    width: 86px;
+    width: 95px;
     top: 103px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -289,7 +292,7 @@ header{
 	height: 20px;
     position: absolute;
     left: 1194px;
-    width: 86px;
+    width: 95px;
     top: 130px; 
     border-top-right-radius: 20px; 
     border-bottom-right-radius: 20px; 
@@ -413,10 +416,11 @@ header{
     align-content: flex-start;
     flex-wrap: wrap;
     position: fixed;
+    z-index: 100;
 }
 .left-border-line{
     border-left: 9px solid #FE8080;
-    height: 360px;
+    height: 318px;
     position: absolute;
     margin-top: 25px;
     margin-left: 0px;
@@ -431,7 +435,7 @@ header{
     border-top-left-radius: 24px;
 }
 .main-Right-box{
-    height: 200vh;
+    height: 122vh;
     width: 100%;
 }
 .john-text h3{
@@ -503,9 +507,9 @@ header{
 }
 .filter-text-4{
     background-color: #FE8080;
-    width: 50px;
+    width: 52px;
     display: flex;
-    margin-left: 9px;
+    margin-left: 7px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -594,7 +598,7 @@ header{
     margin-top: 4px;
 }
 .item-3 h6{
-    margin-left: 15px;
+    margin-left: 20px;
     margin-top: 8px;
     color: #9994FB;
     font-weight: 800;
@@ -609,7 +613,9 @@ header{
 .item-5{
     background: #FF99CB;
     width: 47px;
-    padding: 5px 3px;
+    height: 27px;
+    padding: 6px 5px;
+    margin-top: 2px;
     border-radius: 20px;
     margin-left: 13PX;
     border-right: 18px solid #FCB700;
@@ -622,7 +628,7 @@ header{
 }
 .item-6{
     background: #FF9A66;
-    padding: 6px 13px;
+    padding: 7px 10px;
     border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
     width: 34px;
@@ -720,7 +726,7 @@ header{
     height: 8px;
     right: 0;
     margin-right: -37px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .empty-cell-4{
     position: absolute;
@@ -761,7 +767,7 @@ header{
     background-color: black;
     width: 15px;
     height: 11px;
-    top: 356px;
+    margin-top: -18px;
     margin-left: 127px;
 }
 .empty-cell-5-b{
@@ -769,9 +775,9 @@ header{
     background-color: black;
     width: 15px;
     height: 11px;
-    top: 360px;
     right: 0;
-    margin-right: 234px;
+    margin-right: 155px;
+    margin-top: -18px;
 }
 .empty-cell-6-c{
     position: absolute;
@@ -788,7 +794,7 @@ header{
     height: 11px;
     margin-top: 37px;
     right: 0;
-    margin-right: 150px;
+    margin-right: 79px;
 }
 .empty-cell-ab{
     position: absolute;
@@ -802,8 +808,8 @@ header{
     background-color: black;
     width: 20px;
     height: 8px;
-    left: 429px;
-    margin-top: 30px;
+    margin-top: 24px;
+    margin-left: -26px;
 }
 .empty-cell-2-ad{
     position: absolute;
@@ -819,8 +825,8 @@ header{
     width: 43px;
     height: 8px;
     right: 0;
-    margin-right: 50px;
-    margin-top: 30px;
+    margin-right: -33px;
+    margin-top: 25px;
 }
 .empty-cell-4-af{
     position: absolute;
@@ -837,7 +843,7 @@ header{
     height: 11px;
     margin-top: -18px;
     right: 0;
-    margin-right: 234px;
+    margin-right: 147px;
 }
 .empty-cell-6-ah{
     position: absolute;
@@ -854,7 +860,7 @@ header{
     height: 11px;
     margin-top: 40px;
     right: 0;
-    margin-right: 150px;
+    margin-right: 70px;
 }
 .empty-cell-6-ahm{
     position: absolute;
@@ -871,7 +877,7 @@ header{
     height: 11px;
     margin-top: 73px;
     right: 0;
-    margin-right: 150px;
+    margin-right: 70px;
 }
 .new-empty-cell-1{
     margin-top: 60px;
@@ -912,23 +918,23 @@ header{
 .end-bottom-line{
     background-color:#CE5F61;
     width: 9px;
-    height: 90px;
-    position: absolute;
-    left: 362px;
-    margin-top: -80px;
+    height: 30px;
     position: fixed;
+    margin-top: -160px;
 }
 .btm-line{
     margin-left: 0px;
     background-color:#CE5F61;
-    width: 731px;
+    width: 735px;
+    margin-top: -130px;
+    position: absolute;
     position: fixed;
-    margin-top: 8px;
 }
 .btm-little-line{
-    margin-left: 744px;
+    margin-left: 749px;
     background-color:#CE5F61;
     margin-top: 1px;
+    width: 176px;
 }
 .atm{
     background-color: #B3C8FD;
@@ -943,18 +949,19 @@ header{
 }
 .end-line{
     background-color: #B3C8FD;
-    width: 757px;
+    width: 778px;
     height: 30px;
     /* left: 0; */
     margin-left: 273px;
-    margin-top: 60px;
+    margin-top: 59px;
 }
 .atm-1{
-    margin-left: 772px;
+    margin-left: 792px;
     height: 30px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    width: 183px;
+    width: 182px;
+    background-color: #B3C8FD;
 }
 .atm-2{
     height: 30px;
@@ -973,4 +980,80 @@ header{
 footer{
     width: 100%;
     height: 100px;
+    position: fixed;
+}
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+    @media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+  .left-first-text h6{
+      
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;
+}
+/* .abh::before {
+    width: 111px;
+}
+.abh::after {
+    width: 111px;
+}
+.social-icon-right{
+    margin-right: 109px;
+}
+.btm-line{
+    margin-top: -157px;
+}
+.end-bottom-line{
+    margin-top: -186px;
+}
+.left-border-line{
+    height: 290px;
+}
+.atm-1 {
+    margin-left: 809px;
+}
+.end-line{
+    width: 796px;
+} */
+
+
 }
